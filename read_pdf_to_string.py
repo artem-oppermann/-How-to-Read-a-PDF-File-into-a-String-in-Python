@@ -4,11 +4,11 @@ from pathlib import Path
 
 
 # The name of a document type in Sensible, e.g., "tax_forms"
-DOCUMENT_TYPE = "tax_forms1"
+DOCUMENT_TYPE = "tax_forms"
 # The path to the PDF you'd like to extract from
 DOCUMENT_PATH = Path("2020-TaxReturn.pdf")
 # Your Sensible API key
-SENSIBLE_API_KEY  = "3f0e7662e2fdcb6e975ddfbc1b8c641e471c448ace453e967a5db1606c3593207a37bdb627233d0d6da84a480e19ffa954c9806ea3b1b0005bfc71bfbcfacdd9"
+SENSIBLE_API_KEY  = <YOUR SENSIBLE API KEY>
 
 # The path to save the output
 OUTPUT_PATH = Path("response.json")

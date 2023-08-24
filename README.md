@@ -7,7 +7,7 @@ The code begins by importing the necessary modules, `json` and `requests`. It th
 To elaborate:
 
 - `DOCUMENT_TYPE` is the type of document to extract data from. In this case, the document type is  "tax_document".
-- `DOCUMENT_PATH` specifies the file path to the local PDF document on your computer that you'll extract data from and convert to JSON format. For this example, you'll use the [`1040_2018_sample.pdf`](https://github.com/sensible-hq/sensible-configuration-library/blob/main/tax_forms/1040/2018/1040_2018_sample.pdf) document.
+- `DOCUMENT_PATH` specifies the file path to the local PDF document on your computer that you'll extract data from and convert to JSON format. For this example, you'll use the [`1040_2020_sample.pdf`]([https://github.com/sensible-hq/sensible-configuration-library/blob/main/tax_forms/1040/2018/1040_2018_sample.pdf](https://github.com/artem-oppermann/-How-to-Read-a-PDF-File-into-a-String-in-Python/blob/main/2020-TaxReturn.pdf)) document.
 -`OUTPUT_PATH` is the path where the response will be saved as json file
 - `ERROR_PATH` is the path where a possible exception will be saved as json file
 

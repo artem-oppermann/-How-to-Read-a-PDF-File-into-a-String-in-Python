@@ -1,0 +1,187 @@
+{
+  "id": "ab549447-9b1e-4baa-818a-aa938b12db97",
+  "created": "2023-08-24T06:52:32.930Z",
+  "completed": "2023-08-24T06:52:48.794Z",
+  "status": "COMPLETE",
+  "type": "tax_forms1",
+  "configuration": "2020",
+  "environment": "production",
+  "page_count": 6,
+  "parsed_document": {
+    "year": {
+      "type": "string",
+      "value": "2020"
+    },
+    "filing_status.single": {
+      "type": "boolean",
+      "value": true
+    },
+    "filing_status.married_filing_jointly": {
+      "type": "boolean",
+      "value": false
+    },
+    "filing_status.married_filing_separately": {
+      "type": "boolean",
+      "value": false
+    },
+    "filing_status.head_of_household": {
+      "type": "boolean",
+      "value": false
+    },
+    "filing_status.qualifying_widow": {
+      "type": "boolean",
+      "value": false
+    },
+    "name": {
+      "type": "string",
+      "value": "Cherry Huston, Sr"
+    },
+    "ssn": {
+      "type": "string",
+      "value": "272-82-4743"
+    },
+    "spouse_name": null,
+    "spouse_ssn": null,
+    "home_street_address": {
+      "type": "string",
+      "value": "104 Easy St"
+    },
+    "home_apartment_number": null,
+    "home_city_state_zipcode": {
+      "type": "string",
+      "value": "Gaffney SC 293404461"
+    },
+    "wages_salaries_tips": null,
+    "tax_exempt_interest": null,
+    "taxable_interest": null,
+    "qualified_dividends": null,
+    "ordinary_dividends": null,
+    "ira_distributions": null,
+    "ira_distributions_taxable_amount": null,
+    "pensions_and_annuities": null,
+    "pensions_and_annuities_taxable_amount": null,
+    "social_security_benefits": null,
+    "social_security_benefits_taxable_amount": null,
+    "capital_gain_or_loss": null,
+    "other_income": null,
+    "total_income": null,
+    "adjustments_to_income": {
+      "source": "300",
+      "value": 300,
+      "type": "number"
+    },
+    "adjusted_gross_income": {
+      "source": "-300",
+      "value": -300,
+      "type": "number"
+    },
+    "standard_deduction": {
+      "source": "12,400",
+      "value": 12400,
+      "type": "number"
+    },
+    "qualified_business_deduction": null,
+    "taxable_income": {
+      "source": "0",
+      "value": 0,
+      "type": "number"
+    },
+    "tax": {
+      "source": "0",
+      "value": 0,
+      "type": "number"
+    },
+    "child_tax_credit": null,
+    "other_tax_including_self_employment": {
+      "source": "0",
+      "value": 0,
+      "type": "number"
+    },
+    "total_tax": {
+      "source": "0",
+      "value": 0,
+      "type": "number"
+    },
+    "federal_income_tax_withheld": null,
+    "earned_income_credit": null,
+    "additional_child_tax_credit": null,
+    "american_opportunity_credit": null,
+    "total_other_payments": {
+      "source": "1,800",
+      "value": 1800,
+      "type": "number"
+    },
+    "total_payments": {
+      "source": "1,800",
+      "value": 1800,
+      "type": "number"
+    },
+    "overpaid_amount": {
+      "source": "1,800",
+      "value": 1800,
+      "type": "number"
+    },
+    "overpaid_refund_amount": {
+      "source": "1,800",
+      "value": 1800,
+      "type": "number"
+    },
+    "routing_number": {
+      "type": "string",
+      "value": "0 8 2 9 0 8 5 7 3"
+    },
+    "account_type.checking": {
+      "type": "boolean",
+      "value": true
+    },
+    "account_type.savings": {
+      "type": "boolean",
+      "value": false
+    },
+    "account_number": {
+      "type": "string",
+      "value": "4 4 6 5 5 5 5"
+    },
+    "amount_you_owe": null,
+    "estimated_tax_penalty": null,
+    "signed": {
+      "type": "boolean",
+      "value": false
+    },
+    "signed_date": null,
+    "spouse_signed": {
+      "type": "boolean",
+      "value": false
+    },
+    "spouse_signed_date": null
+  },
+  "validations": [],
+  "validation_summary": {
+    "fields": 54,
+    "fields_present": 27,
+    "errors": 0,
+    "warnings": 0,
+    "skipped": 0
+  },
+  "classification_summary": [
+    {
+      "configuration": "2020",
+      "fingerprints": 6,
+      "fingerprints_present": 15,
+      "score": {
+        "value": 27,
+        "fields_present": 27,
+        "penalties": 0
+      }
+    }
+  ],
+  "errors": [],
+  "file_metadata": {
+    "info": {
+      "creator": "Intuit Inc. FPS Engine v4 (4.3.12 12/03/2020 09:47 AM)",
+      "producer": "iText 2.1.7 by 1T3XT",
+      "creation_date": "2021-02-16T04:19:33.000-08:00",
+      "modification_date": "2021-02-16T04:19:33.000-08:00"
+    }
+  }
+}

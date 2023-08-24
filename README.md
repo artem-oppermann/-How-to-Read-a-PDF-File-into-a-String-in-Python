@@ -22,9 +22,10 @@ To run the code, be sure to specify your API key, the local path to your PDF, an
 After executing the application, you should receive the following output:
 
 ```
-Name: Gemanna Gomez
-SSN: 111-22-3333
-Adress: 13434 Doe Street
+Name: Cherry Huston, Sr
+Street Address:  104 Easy St
+City and Zip-Code:  Gaffney SC 293404461
+Social security number:  272-82-4743
 ```
 
 At the same time, all extracted data from the PDF is saved as a JSON file in the `response.json` file. The output represents the information from the PDF in JSON format. As you can see, using a reference document and setting up the configuration once enables you to extract data from any similar-looking PDF.
